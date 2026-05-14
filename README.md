@@ -4,6 +4,8 @@ Static GitHub Pages site for Brevox, a private iPhone and Apple Watch voice-firs
 
 Live site: https://teleng-labs.github.io/brevox-landing/
 
+iOS + Apple Watch app repository: https://github.com/teleng-labs/brevox-ios
+
 ## Pages
 
 - Home: `index.html`
