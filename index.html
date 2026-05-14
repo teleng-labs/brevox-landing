@@ -23,6 +23,7 @@
       <nav class="topnav" data-nav aria-label="Primary navigation">
         <a class="active" href="./">Home</a>
         <a href="#workflow">Workflow</a>
+        <a href="#create">Create Menu</a>
         <a href="#privacy">Privacy</a>
         <a href="#pricing">Pricing</a>
         <a href="support/">Support</a>
@@ -40,6 +41,14 @@
             <h1>Voice notes that stay on your device.</h1>
             <p class="hero-lede">85% audio, 15% pen. 100% on-device.</p>
             <p class="hero-text">Brevox captures the rough thought, turns it into structured notes locally, and keeps your private voice memory away from servers, dashboards, and tracking pixels.</p>
+            <div class="recording-strip" aria-label="Local recording status">
+              <span class="record-dot"></span>
+              <strong>00:24</strong>
+              <div class="waveform" aria-hidden="true">
+                <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+              </div>
+              <span>Processing locally</span>
+            </div>
             <div class="hero-actions">
               <a class="button primary" href="mailto:rrojo.va@gmail.com?subject=Brevox%20TestFlight%20access">Join TestFlight</a>
               <a class="button secondary" href="#workflow">See workflow</a>
@@ -58,6 +67,10 @@
             <div class="watch-chip">
               <span></span>
               <strong>Watch capture</strong>
+            </div>
+            <div class="local-badge">
+              <span>Local AI</span>
+              <strong>Transcript + summary without Brevox servers</strong>
             </div>
           </div>
         </div>
@@ -143,6 +156,45 @@
             <span class="workflow-number">3</span>
             <h3>Return to meaning</h3>
             <p>Search, filter, edit, and export the note when it becomes useful work.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section create-section" id="create">
+        <div class="section-heading wide" data-reveal>
+          <p class="eyebrow">Create Menu</p>
+          <h2>One recording becomes the format you actually need.</h2>
+          <p>Brevox is not only a recorder. It is a local conversion layer for the messy spoken note.</p>
+        </div>
+        <div class="create-grid">
+          <div class="output-menu" data-reveal aria-label="Brevox output types">
+            <span>Summary</span>
+            <span>Main points</span>
+            <span>Meeting report</span>
+            <span>To-do list</span>
+            <span>Email draft</span>
+            <span>Blog post</span>
+            <span>Tweet thread</span>
+            <span>Translation</span>
+            <span>Cleanup</span>
+            <span>Mind map</span>
+            <span>Custom prompt</span>
+          </div>
+          <article class="output-preview" data-reveal>
+            <p class="preview-kicker">Generated on-device</p>
+            <h3>Decision note</h3>
+            <div class="preview-block">
+              <strong>Summary</strong>
+              <p>Prioritize the TestFlight build, keep the beta small, and validate Watch capture before expanding onboarding.</p>
+            </div>
+            <div class="preview-block">
+              <strong>Actions</strong>
+              <ul>
+                <li>Ship archive candidate</li>
+                <li>Invite first beta testers</li>
+                <li>Review privacy copy against shipped behavior</li>
+              </ul>
+            </div>
           </article>
         </div>
       </section>
