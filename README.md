@@ -2,6 +2,8 @@
 
 Static GitHub Pages site for Brevox, a private iPhone and Apple Watch voice-first notebook.
 
+Live site: https://teleng-labs.github.io/brevox-landing/
+
 ## Pages
 
 - Home: `index.html`
