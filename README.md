@@ -1,8 +1,10 @@
 # Brevox Landing
 
-Static GitHub Pages site for Brevox, a private iPhone and Apple Watch voice-first notebook.
+Static site for Brevox, a private iPhone and Apple Watch voice-first notebook.
 
-Live site: https://teleng-labs.github.io/brevox-landing/
+Primary site: https://brevox-landing.vercel.app/
+
+Transition mirror: https://teleng-labs.github.io/brevox-landing/
 
 iOS + Apple Watch app repository: https://github.com/teleng-labs/brevox-ios
 
@@ -13,7 +15,12 @@ iOS + Apple Watch app repository: https://github.com/teleng-labs/brevox-ios
 - Support: `support/index.html`
 - Terms: `terms/index.html`
 
-## Deploy on GitHub Pages
+## Deployment
+
+Vercel is the primary host. Connect this repository to the `brevox-landing`
+Vercel project so every push to `main` creates a production deployment.
+
+GitHub Pages remains enabled during the App Store transition:
 
 1. Create a GitHub repository, for example `brevox-landing`.
 2. Push this folder as the repository root.
