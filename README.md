@@ -19,6 +19,8 @@ iOS + Apple Watch app repository: https://github.com/teleng-labs/brevox-ios
 
 Vercel is the primary host. Connect this repository to the `brevox-landing`
 Vercel project so every push to `main` creates a production deployment.
+`vercel.json` keeps clean URLs and the trailing-slash route shape in source
+control.
 
 GitHub Pages remains enabled during the App Store transition:
 
